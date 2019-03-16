@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+* {
+  font-family: 'Lato', sans-serif;
+  padding: 0;
+  margin: 0;
+  content-box: border-box;
+}
+
+h3 {
+  line-height: 28px;  
+}
+
+p {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.background {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #FAF9FA;
+}
+
+.banner {
+  width: 210px;
+  background-color: #376AF0;
+  padding: 10px 20px;
+  color: white;
+  align-self: flex-start;
+}
+
+.line {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  margin-left: -6px;
+  background-color: darkgrey;
+  border: solid 3px #FAF9FA;
+  border-radius: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+.first {
+  margin-top: -215px;
+}
+
+.second {
+  margin-top: -95px;
+}
+
+.third {
+  margin-top: 35px;
+}
+
+.fourth {
+  margin-top: 155px;
+}
+
+.baseline {
+  background-color: darkgrey;
+  width: 1px;
+  height: 90vh;
+}
+
+.contents {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.items {
+  width: 250px;
+  height: 150px;
+  background-color: white;
+  box-shadow: 1px 2px 4px lightgrey;
+}
+
+.left {
+  margin: 0px 40px 100px 0px;
+  align-self: flex-end;
+}
+
+.right {
+  margin: 100px 0px 0px 40px;
+}
+
+.right:first-child {
+  margin-top: 140px;
+}
