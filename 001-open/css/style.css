@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: url(http://www.photos-public-domain.com/wp-content/uploads/2011/03/black-brick-wall-texture.jpg);
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  width: 300px;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: solid 3px #fff;
+  border-radius: 28px;
+  box-shadow: 0 0 20px #ffed36, 0 0 6px #fffecf, 0 0 10px #ffed36 inset,0 0 10px 1px #fff933 inset;
+}
+
+.neon_text {
+  font-family: "Comfortaa", cursive;
+  font-size: 60px;
+  font-weight: 300;
+  color: #fff;
+  text-shadow: 0 0 80px, 0 0 10px #ffed66, 0 0 18px #ffed66, 0 0 8px #ffed66, 0 6px 4px #000;
+  padding-right: 8px;
+  padding-bottom: 4px;
+}
+
+.credit {
+  font-family: 'Sacramento', cursive;
+  color: #fffeff;
+  font-size: 20px;
+  text-shadow: 0 0 10px #fff;
+  text-align: center;
+  display: block;
+  position: absolute;
+  bottom: 40px;
+}
