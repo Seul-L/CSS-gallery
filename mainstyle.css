@@ -35,7 +35,7 @@ h3, h4, p {
     padding: 1em;
 }
 
-/* Use a media query to add a break point at 600px: It means, following code applies when the viewport is 800px or smaller*/
+/* Use a media query to add a break point at 600px: It means, following code applies when the viewport is 600px or smaller*/
 @media screen and (max-width:600px) {
     .main-container {
       margin: 50px 20px;
