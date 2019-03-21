@@ -1,0 +1,20 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+h3, h4, p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-container {
+    margin-top: 100px;
+    margin-left: 100px;
+}
