@@ -1,2 +1,2 @@
-# 100-of-CSS
-100 CSS made on Codepen 
+# CSS Gallery
+Showcase of CSS made on Codepen: [leeseul.design](https://leeseul.design)
